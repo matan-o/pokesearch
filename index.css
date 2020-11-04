@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(34, 34, 34);
+    place-items: center;
+    
+    
+}
+
+h3, h2{
+    color: rgb(53, 90, 170);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#btn{
+    
+    color:  rgb(51, 71, 141);
+    font-weight: bolder;
+    background-color: white;
+    border: 1px solid rgb(208, 203, 255);
+    height: fit-content;
+    border-radius: 10px ;
+    padding: 5px;
+    outline: none;
+}
+#btn:hover{
+    background-color: rgb(51, 71, 141);
+    color: white ;
+}
+input{
+    margin: 8px;
+    height: 15px;
+    padding: 5px;
+    border: 1px solid rgb(208, 203, 255);
+    border-radius: 10px ;
+    outline: none;
+}
+
+
+
+#logo{
+    width: 200px;
+}
+#search{
+    
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 40px;
+    
+}
+#profile{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+#pokeImg{
+    width: 96px;
+    height: 96px;
+    margin: auto;
+}
+
+#pName{
+    text-align: center;
+}
+
+
+#namelist{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    overflow: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#textDiv{
+    width: 200px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#pokename, #type{
+    color: rgb(50, 39, 172);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+#pokename:hover, #type:hover{
+    color: tomato;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-thumb {
+    background:rgb(138, 160, 202); 
+border-radius: 5px;
+border: 1px solid rgb(208, 203, 255);
+
+}
